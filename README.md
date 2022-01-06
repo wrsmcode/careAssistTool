@@ -22,3 +22,14 @@ Dazu gehört aktuell:
 -Krankheitsstand Mitarbeiter
 -Stundenverfügbarkeit der Kunden
 -Stundenübersicht Mitarbeiter (Mini-Job, Teilzeitkräfte)
+
+# Entwicklungs-Stand:
+
+Umstellung von Excel nach "echter" Software. Geplant ist eine LOKALE Software-Lösung, via Django und Python in Verbindung mit einer "richtigen" Datenbank, welche lokal im User-Büro installiert und bedient wird. Ein Server, worauf alle (Büro-) Mitarbeiter zugreifen können.
+
+# Geplant ist bisher folgendes:
+Kundenakten --> Stammdatenbearbeitung (Pflegegrad, verfügbare Std., Anpassungen bei Änderungen zum Pflegerad, 
+Mitarbeiterakten --> Einsatzort, Einsatzgebiet(e), Urlaubsplanung, Krankenstand, Gehalt
+Leistungsnachweise --> Drucken, verschicken, scannen und autom. Zuordnung zum Kunden
+Abrechnung --> gem. § 39 SGB XI; § 45b SGB XI; § 39 SGB XI, Privatabrechnung, gem. Bewilligung, etc. --> Kundenspezifische Abrechnungen
+
