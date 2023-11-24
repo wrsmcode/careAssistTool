@@ -1,6 +1,8 @@
 # careAssistTool
 An OpenSource Software-Tool for Care Assistants without overloaded Software-Functions.
 Start development: 06.01.2022
+kind of Software: Excel365
+database: no - not yet integrated
 # Target Group / Target audience:
 small companies specializing in care management, not care in the true sense of the word.
 # German:
@@ -16,6 +18,9 @@ This currently includes:
 
 # Hintergrund des Projektes:
 German:
+Software: Excel 365
+Datenbank-Anbindung: nicht geplant - bis jetzt
+
 ich bin gefragt worden, ob ich Daten von pflegebedürftigen Kunden "zentral" in einer Excel-Datei darstellen könnte, damit die Übersicht nicht verloren geht und die Kunden immer pünktlich und termingerecht bedient werden können. Daraus wurde mit der Zeit eine immer mächtigere Excel-Datei, die mittlerweile ca. 200 Kundenakten (Exceldateien) und Mitarbeiter-Akten verwaltet und bearbeitet.
 Dazu gehört aktuell:
 -Urlaubsplanung
@@ -24,7 +29,7 @@ Dazu gehört aktuell:
 -Stundenübersicht Mitarbeiter (Mini-Job, Teilzeitkräfte)
 
 # Entwicklungs-Stand:
-
+- "eigentlich" fertig - wer eine Vorab-Version haben will - einfach melden. Ist ansich auch mit vielen Hilfen/Anleitungen versehen...
 Umstellung von Excel nach "echter" Software. Geplant ist eine LOKALE Software-Lösung, via Django und Python in Verbindung mit einer "richtigen" Datenbank, welche lokal im User-Büro installiert und bedient wird. Ein Server, worauf alle (Büro-) Mitarbeiter zugreifen können.
 
 # Geplant ist bisher folgendes:
